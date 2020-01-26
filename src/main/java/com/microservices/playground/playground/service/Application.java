@@ -51,6 +51,7 @@ public class Application {
     @DeleteMapping("deleteAll")
     public void deleteAll() {
         personRepository.deleteAll();
+	    return;
     }
 
 	@GetMapping("getAll")
